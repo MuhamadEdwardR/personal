@@ -1,0 +1,108 @@
+html{
+    overflow-x: hidden;
+    min-height: 1000vh;
+    
+}
+
+
+html body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    top: 10px;
+}
+
+
+/* .container{
+
+} */
+
+.ul-nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    font-size: 2em;
+    
+}
+
+.nav-li {
+    display: flex;
+    /* justify-content:space-between; */
+    padding: 10px;
+    padding-bottom: 0;
+    
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 0;
+}
+
+.logo-a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 30px;
+    justify-content: right;
+    padding-bottom: 0;
+    /* padding-top: -90px; */
+    
+}
+
+.logo{
+    border-radius: 60px;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+
+/* nav end */
+.l-page {
+    background-color: rgb(203, 231, 253);
+}
+
+.l-page .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 28vh;
+    padding-bottom: -20vh;
+    margin-bottom:0 ;
+    /* border-bottom: 1px black solid; */
+    /* border-top: 1px black solid; */
+}
+
+.landing-logo{
+    border-radius: 120px;
+}
+
+/* landing page end */
+.about{
+    background-color: rgb(203, 231, 253);
+    padding: 27vh;
+}
+
+.about-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ab-foto{
+    margin: 30px;
+    border-radius: 200px;
+}
+
+.desk-about{
+    font-size: 25px;
+    text-align: left;
+    margin-right: -10vh;
+}
