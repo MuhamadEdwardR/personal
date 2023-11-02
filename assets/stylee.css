@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Unbounded:wght@500&display=swap');
+
+
+
+
 html{
     overflow-x: hidden;
     min-height: 1000vh;
@@ -36,6 +41,7 @@ html body{
     /* justify-content:space-between; */
     padding: 10px;
     padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -85,6 +91,15 @@ html body{
 }
 
 /* landing page end */
+.title-about{
+    font-family: 'Unbounded', sans-serif;
+    position: absolute;  
+    left: 90vh; 
+    top: 130vh;
+}
+
+
+
 .about{
     background-color: rgb(203, 231, 253);
     padding: 27vh;
